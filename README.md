@@ -39,7 +39,7 @@ Assumptions:
     - Copy this Jenkisfile into the root directory of your application repository.
     - This is Multi-stage pipeline to deploy code from the local git repository to the Azure repository.
     - Externalized to allow multiple iterations with varying parameters. 
-    - There is also the option to emben this in-line in the pipeline.
+    - There is also the option to embed this in-line in the pipeline.
     - Running unit test is built in to the `'Test'`
     - Any other testing can be inserted into the `'Test'` stage
 
