@@ -46,6 +46,6 @@ Assumptions:
 
 - Existing APPLICATION SERVICE
     - You are able to switch application versions without redeploying the code.
-    - Run the following in Azure CLI and replace <app_env>
+    - Run the following in Azure CLI
 
-  `az webapp config appsettings set -g MyResourceGroup -n AppServiceName --settings APP_ENV=<app_env>`
+  `az webapp config appsettings set -g <MyResourceGroup> -n <AppServiceName> --settings APP_ENV=<app_env>`
