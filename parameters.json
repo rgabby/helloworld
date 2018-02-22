@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_svctest_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "sites_svctest_name": {
+            "value": null
+        },
+        "autoscalesettings_DEV_name": {
+            "value": null
+        },
+        "serverfarms_svctest_name": {
+            "value": null
+        },
+        "storageAccounts_svctorage_name": {
+            "value": null
+        },
+        "components_svctest_name": {
+            "value": null
+        },
+        "config_web_name_1": {
+            "value": null
+        },
+        "hostNameBindings_svctest.azurewebsites.net_name": {
+            "value": null
+    }
+}
